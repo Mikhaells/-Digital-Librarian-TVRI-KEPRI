@@ -419,7 +419,7 @@ def create_sample_mapping_files(kegiatan_map_path, bahanpustaka_map_path):
 def main():
     """Main function"""
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    watch_folder = r"/volume1/Produksi TVRI"
+    watch_folder = r"C:\TestWatch"
     processed_folder =  watch_folder
     kegiatan_map_path = os.path.join(script_dir, "kegiatan_map.json")
     bahanpustaka_map_path = os.path.join(script_dir, "bahanpustaka_map.json")
